@@ -7,7 +7,7 @@ module.exports = {
         analytics_label: 'androidV1Notification',
       },
     }
-    let updateRateLimits = true
+    let updateRateLimits = false
 
     if (req.body.data) {
       // Handle the web actions by changing them into a format the app can handle
